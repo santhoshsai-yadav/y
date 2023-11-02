@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+:root {
+    --main: #47b2e4;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-family: jost, sans-serif;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand {
+    font-family: jost, sans-serif;
+    font-size: 27px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero-text {
+    margin-top: 190px;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+.nav-item a:hover,
+.nav-item a:active{
+  
+    color: #47b2e4 !important;
+}
+
+.nav-button {
+    background: transparent;
+    color: aliceblue;
+    border: 2px solid #47b2e4;
+    border-radius: 30px;
+    font-weight:500;
+}
+
+.nav-button:hover{
+    background-color: var(--main);
+}
+.nav-item a span{
+    color: #47b2e4;
+}
+.hero-btns button{
+    border-radius: 50px;
+    border: none;
+    }
+.hero-btns p{
+    margin-top: 10px;
+}
+.hero-imgs img{
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes  floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+   100%{
+        transform: translateY(0);
+    }
+
+} 
+.logos{
+    background-color:#f3f5fa;
+    /* height: 13vh; */
+}
+.logos img{
+    filter: grayscale(1) !important;
+}
+.logos img:hover{
+    filter: grayscale(0) !important;
+}
+.line{
+    border-bottom: 2px solid #47b2e4 !important;
+    width: 40px;
+
+}
+.about-btns button{
+    border:  2px solid #47b2e4;
+    background-color: transparent !important;
+font-weight: 400;
+font-size: 15px;
+    color: #47b2e4 !important;
+    border-radius: 5px;
+    font-family: poppins,sans-serif;
+}
+.abouts-text{
+    color: #444444;
+}
+.about-btns{
+    color: #444444;
+}
+.about-btns button:hover{
+    color: white !important;
+    background-color: #47b2e4 !important;
+}

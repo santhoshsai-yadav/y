@@ -1,0 +1,13 @@
+@media (max-width:576px) {
+    .hero-text h2{
+       font-size: 22px !important;
+       width: 100%;
+       text-align: center;
+    }
+    .hero-text p{
+        text-align: center;
+    }
+.hero-btns{
+   margin-left: 70px !important;
+}
+}
